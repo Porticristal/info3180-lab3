@@ -1,3 +1,48 @@
 body {
     padding-top: 5rem;
 }
+
+#name, #email, #subject{
+    width: 200px;
+}
+
+#message{
+    width: 20em;
+    height: 5em;
+}
+
+.required{
+    font-weight: bold;
+    color: red;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.desc{
+    margin-bottom: 8px;
+}
+
+input{
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.send-btn{
+    border: none;
+    background-color: #2985cc;
+    border-radius: 5px;
+    color: white;
+    width: 7em;
+    height: 2.5em;
+    margin-top: 2em;
+}
+
+.flashes {
+    color: green;
+    font-weight: bolder;
+    font-style: italic;
+}
